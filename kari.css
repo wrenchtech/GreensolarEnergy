@@ -1,0 +1,69 @@
+body {
+    background-color: #307c4c;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    min-height: 100px;
+    background-color: #2f7949;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Impact;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo img{
+    height: 120px;
+    align-items: center;
+   ;
+}
+
+button{
+    background-color: #589474;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 13px;
+    border-color: #323232;
+    color: #323232;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 2px;
+ 
+}
+
+button:hover{
+    background-color: #323232;
+    transition: 0.3s;
+    color: white;
+}
+
+.iglogo img{
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transform: translateY(32%);
+}
+
+.fblogo img{
+    height: 30px;
+    margin-right: 15px;
+    transform: translateY(32%);
+}
+
+button:hover{
+    background-color: #323232;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
